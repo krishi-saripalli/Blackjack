@@ -15,6 +15,7 @@ class Deck:
         all_cards = number_cards + [Card("A"),Card("K"),Card("Q"),Card("J")]
         all_cards = 4*all_cards
         self.cards += all_cards
+        
     
     def shuffle_deck(self):
         random.shuffle(self.cards)
